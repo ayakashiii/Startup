@@ -1,0 +1,353 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+/* First section*/
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+#home{
+    background-image: url(images/Home\ Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#welcome{
+    position: relative;
+    top: 30%;
+}
+
+#wts{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+#favorite{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.started{
+    display: flex;
+    justify-content: center;
+}
+/* Second section*/
+#services{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    padding-top: 10%;
+}
+
+.polosa{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#offer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #555555;
+}
+
+#serv{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.typography{
+    width: 30%;
+}
+
+.rock_code{
+    width: 30%;
+}
+
+.expert_support{
+    width: 30%;
+}
+
+#s2monserat{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+
+#s2roboto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+/* Second section breakpoint*/
+
+@media screen and (max-width: 767px) { 
+    #serv{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .typography{
+        width: 100%;
+    }
+    
+    .rock_code{
+        width: 100%;
+        padding-top: 5%;
+    }
+    
+    .expert_support{
+        width: 100%;
+        padding-top: 5%;
+    }
+}
+
+/* Third section*/
+.aboutus{
+    background-color: #F8F8F8;
+}
+
+#loremtxt{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.lorem1{
+    width: 45%;
+}
+
+.lorem2{
+    width: 45%;
+}
+
+#personal_carousel{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#card{
+    background-color: #F8F8F8;
+}
+
+.card{
+        width: 15rem;
+}
+/* Third section breakpoint*/
+
+@media screen and (max-width: 767px) { 
+    #loremtxt{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .lorem1{
+        width: 100%;
+    }
+    
+    .lorem2{
+        width: 100%;
+    }
+    .card{
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 375px) { 
+    .card{
+        width: 7rem;
+    }
+}
+/* Four section*/
+.gallery{
+    padding-top: 5%;
+}
+
+#g2{
+    padding-top: 2%;
+}
+
+#g3{
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+/* four section breakpoint*/
+@media screen and (max-width: 767px) { 
+    #g2{
+        padding-top: 4.5%;
+    }
+    
+    #g3{
+        padding-top: 4.5%;
+    }
+}
+
+@media screen and (max-width: 375px) { 
+    #g2{
+        padding-top: 6%;
+    }
+    
+    #g3{
+        padding-top: 6%;
+    }
+}
+/* Five section*/
+
+#ourwork{
+    background-image: url(images/Paralax\ section.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+}
+
+#ourworktxt{
+    position: relative;
+    top: 30%;
+}
+
+#ow1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+/* five section breakpoint*/
+@media screen and (max-width: 767px) { 
+    #ourworktxt{
+        top: 15%;
+    }
+}
+@media screen and (max-width: 375px) { 
+    #ourworktxt{
+        top: 10%;
+    }
+    
+    #welcome{
+        top: 20%;
+    }
+}
+/* Six section*/
+#date{
+    width: 76px;
+    height: 76px;
+}
+
+#datetxt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #555555;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.ideas{
+    height: 76px;
+    padding-left: 5%;
+}
+
+#heading{
+    position: relative;
+    top: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #C0301C;
+}
+
+.ideastxt{
+    padding-top: 5%;
+}
+
+#readmore{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #555555;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#readmore:hover{
+    color: #C0301C;
+}
+
+#blog{
+    padding-top: 5%;
+}
+#blog2{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+/* six section breakpoint*/
+@media screen and (max-width: 767px) { 
+    #heading{
+        top: 0%;
+    }
+
+    .ideas{
+        padding-left: 30%;
+    }
+
+    .ideastxt{
+        padding-top: 40%;
+    }
+}
+/* Seven section*/
+#clients{
+    height: 55vh;
+    background-color: #F8F8F8;
+}
+
+#clientimg{
+    padding-top: 8%;
+}
+
+#clienttxt1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #555555;
+    margin: 0%;
+    padding-top: 3%;
+}
+
+#clienttxt2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #555555;
+}
+
+#john{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    padding-top: 1%;
+}
+/* seven section breakpoint*/
+@media screen and (max-width: 767px) { 
+    #clientimg{
+        padding-top: 15%;
+    }
+    
+    #clienttxt1{
+        padding-top: 8%;
+    }
+    
+    #john{
+        padding-top: 2%;
+    }
+}
